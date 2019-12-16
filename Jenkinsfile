@@ -10,6 +10,9 @@ pipeline {
       }
       steps {
         sh 'echo "Hello"'
+        echo 'HHHHHH'
+        sleep 5
+        sh 'echo \'HHHHH\''
       }
     }
   }
