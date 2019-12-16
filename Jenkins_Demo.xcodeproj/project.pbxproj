@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2E8AF5407F33443AD90429 /* Pods_Jenkins_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E9A08E254973CA8161D2F5 /* Pods_Jenkins_Demo.framework */; };
+		504B153523A7DDDD00CCEDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B153423A7DDDD00CCEDE5 /* AppDelegate.m */; };
+		504B153823A7DDDD00CCEDE5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B153723A7DDDD00CCEDE5 /* SceneDelegate.m */; };
+		504B153B23A7DDDD00CCEDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B153A23A7DDDD00CCEDE5 /* ViewController.m */; };
+		504B153E23A7DDDD00CCEDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504B153C23A7DDDD00CCEDE5 /* Main.storyboard */; };
+		504B154023A7DDDE00CCEDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504B153F23A7DDDE00CCEDE5 /* Assets.xcassets */; };
+		504B154323A7DDDE00CCEDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504B154123A7DDDE00CCEDE5 /* LaunchScreen.storyboard */; };
+		504B154623A7DDDE00CCEDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B154523A7DDDE00CCEDE5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504B153023A7DDDD00CCEDE5 /* Jenkins_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenkins_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504B153323A7DDDD00CCEDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		504B153423A7DDDD00CCEDE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		504B153623A7DDDD00CCEDE5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		504B153723A7DDDD00CCEDE5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		504B153923A7DDDD00CCEDE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		504B153A23A7DDDD00CCEDE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		504B153D23A7DDDD00CCEDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504B153F23A7DDDE00CCEDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504B154223A7DDDE00CCEDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504B154423A7DDDE00CCEDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504B154523A7DDDE00CCEDE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D772B21E93F4CE837457C1 /* Pods-Jenkins_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_Demo.release.xcconfig"; path = "Target Support Files/Pods-Jenkins_Demo/Pods-Jenkins_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B9EDBFA86F5FE0F897A35176 /* Pods-Jenkins_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Jenkins_Demo/Pods-Jenkins_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E9A08E254973CA8161D2F5 /* Pods_Jenkins_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jenkins_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504B152D23A7DDDD00CCEDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E8AF5407F33443AD90429 /* Pods_Jenkins_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381E2EEE0823DACE2B7E19A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9EDBFA86F5FE0F897A35176 /* Pods-Jenkins_Demo.debug.xcconfig */,
+				76D772B21E93F4CE837457C1 /* Pods-Jenkins_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		504B152723A7DDDD00CCEDE5 = {
+			isa = PBXGroup;
+			children = (
+				504B153223A7DDDD00CCEDE5 /* Jenkins_Demo */,
+				504B153123A7DDDD00CCEDE5 /* Products */,
+				381E2EEE0823DACE2B7E19A9 /* Pods */,
+				B19E9005487C8F902882B8B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504B153123A7DDDD00CCEDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504B153023A7DDDD00CCEDE5 /* Jenkins_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504B153223A7DDDD00CCEDE5 /* Jenkins_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				504B153323A7DDDD00CCEDE5 /* AppDelegate.h */,
+				504B153423A7DDDD00CCEDE5 /* AppDelegate.m */,
+				504B153623A7DDDD00CCEDE5 /* SceneDelegate.h */,
+				504B153723A7DDDD00CCEDE5 /* SceneDelegate.m */,
+				504B153923A7DDDD00CCEDE5 /* ViewController.h */,
+				504B153A23A7DDDD00CCEDE5 /* ViewController.m */,
+				504B153C23A7DDDD00CCEDE5 /* Main.storyboard */,
+				504B153F23A7DDDE00CCEDE5 /* Assets.xcassets */,
+				504B154123A7DDDE00CCEDE5 /* LaunchScreen.storyboard */,
+				504B154423A7DDDE00CCEDE5 /* Info.plist */,
+				504B154523A7DDDE00CCEDE5 /* main.m */,
+			);
+			path = Jenkins_Demo;
+			sourceTree = "<group>";
+		};
+		B19E9005487C8F902882B8B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8E9A08E254973CA8161D2F5 /* Pods_Jenkins_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504B152F23A7DDDD00CCEDE5 /* Jenkins_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504B154923A7DDDE00CCEDE5 /* Build configuration list for PBXNativeTarget "Jenkins_Demo" */;
+			buildPhases = (
+				580BB6FAAAAFDF2208FB6546 /* [CP] Check Pods Manifest.lock */,
+				504B152C23A7DDDD00CCEDE5 /* Sources */,
+				504B152D23A7DDDD00CCEDE5 /* Frameworks */,
+				504B152E23A7DDDD00CCEDE5 /* Resources */,
+				5FA207CCB32AE1AD8DCCBFFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jenkins_Demo;
+			productName = Jenkins_Demo;
+			productReference = 504B153023A7DDDD00CCEDE5 /* Jenkins_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504B152823A7DDDD00CCEDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Yunlong;
+				TargetAttributes = {
+					504B152F23A7DDDD00CCEDE5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 504B152B23A7DDDD00CCEDE5 /* Build configuration list for PBXProject "Jenkins_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504B152723A7DDDD00CCEDE5;
+			productRefGroup = 504B153123A7DDDD00CCEDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504B152F23A7DDDD00CCEDE5 /* Jenkins_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504B152E23A7DDDD00CCEDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504B154323A7DDDE00CCEDE5 /* LaunchScreen.storyboard in Resources */,
+				504B154023A7DDDE00CCEDE5 /* Assets.xcassets in Resources */,
+				504B153E23A7DDDD00CCEDE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		580BB6FAAAAFDF2208FB6546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jenkins_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA207CCB32AE1AD8DCCBFFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jenkins_Demo/Pods-Jenkins_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jenkins_Demo/Pods-Jenkins_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jenkins_Demo/Pods-Jenkins_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504B152C23A7DDDD00CCEDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504B153B23A7DDDD00CCEDE5 /* ViewController.m in Sources */,
+				504B153523A7DDDD00CCEDE5 /* AppDelegate.m in Sources */,
+				504B154623A7DDDE00CCEDE5 /* main.m in Sources */,
+				504B153823A7DDDD00CCEDE5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504B153C23A7DDDD00CCEDE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504B153D23A7DDDD00CCEDE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504B154123A7DDDE00CCEDE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504B154223A7DDDE00CCEDE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504B154723A7DDDE00CCEDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		504B154823A7DDDE00CCEDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504B154A23A7DDDE00CCEDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EDBFA86F5FE0F897A35176 /* Pods-Jenkins_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jenkins_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunlong.zhu.Jenkins-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504B154B23A7DDDE00CCEDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D772B21E93F4CE837457C1 /* Pods-Jenkins_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jenkins_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunlong.zhu.Jenkins-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504B152B23A7DDDD00CCEDE5 /* Build configuration list for PBXProject "Jenkins_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504B154723A7DDDE00CCEDE5 /* Debug */,
+				504B154823A7DDDE00CCEDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504B154923A7DDDE00CCEDE5 /* Build configuration list for PBXNativeTarget "Jenkins_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504B154A23A7DDDE00CCEDE5 /* Debug */,
+				504B154B23A7DDDE00CCEDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504B152823A7DDDD00CCEDE5 /* Project object */;
+}
